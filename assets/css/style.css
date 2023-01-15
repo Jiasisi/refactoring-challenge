@@ -1,12 +1,18 @@
 header {
-    text-align: left;
+   
     color: white;
     background-color: rgb(29, 89, 143);
 }
 
+h1 {
+
+}
+
+
 li {
     display: inline;
     padding: 20px 20px;
+    text-align: left;
 }
 
 ul {
@@ -22,12 +28,11 @@ ul {
 .box-left {
     
     width: 70%;
-    margin: 20px;
-    
+    margin: 20px;   
     display: inline-block;
 }
 
-.box-left-1 {
+#serch-engine-optimization {
     color: white;
     background-color: rgb(26, 97, 196);
     padding: 20px;
@@ -35,7 +40,7 @@ ul {
     height: 250PX;
 }
 
-.box-left-2 {
+#online-reputation-management {
     color: white;
     background-color: rgb(26, 97, 196);
     padding: 20px;
@@ -43,7 +48,7 @@ ul {
     height: 250PX;
 }
 
-.box-left-3 {
+#social-media-marketing {
     color: white;
     background-color: rgb(26, 97, 196);
     padding: 20px;
@@ -70,7 +75,7 @@ h2 {
     color: white;
     background-color: rgb(56, 117, 160);
     width: 26%;
-    height: 910px;
+    height: auto;
     float: right;
     margin-top: 20px;
 }
@@ -80,17 +85,19 @@ h2 {
 }
 
 
-
-
-
 h3 {
     text-align: center;
 }
 
 #box-right-picture {
-    width: 47%;
-    margin: 0px 67px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
+footer {
+    text-align: center;
 
+}
 
